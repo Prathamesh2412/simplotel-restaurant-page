@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background: linear-gradient(to right, #ffffcc,#f0a6b3);
+}
+
+header {
+    background-color: #f78461;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu-bar-image {
+    height: 20px;
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#text-content {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    font-size: 40px;  
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+#photo-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+.click-me-button {
+    background-color:  #f78461;
+    color: white;
+    padding: 15px 80px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+.images-container {
+    width: 50%;
+    display: flex;
+}
+
+.left-images,
+.right-images {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 100%;
+}
+
+.left-images img {
+    width: 50%; 
+    height: auto;
+    margin-bottom:none;
+    padding-left: 205px;
+    object-fit: cover;
+}
+
+.right-images img {
+    width: 100%; 
+    height: calc(100% - 10px); 
+}
+
+.content-container {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.content {
+    background-color: #ff2c2c;
+    color: black;
+    width: 500px; 
+    height: 250px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: left;
+}
+.content h2 {
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 8px;
+    font-size: 40px;    
+}
+
+.content button {
+    background-color: transparent;
+    color: black;
+    padding: 5px 80px;
+    border: none;
+    padding-left: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}

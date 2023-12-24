@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Restaurant - Home</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #a8e869;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #d0fd8d;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .dish-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .dish {
+            width: 30%;
+            margin: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .dish:hover {
+            transform: scale(1.02);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Name</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="food.html">Food</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="Restaurant.html">Restaurant</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Welcome to Our Restaurant</h2>
+        <p>Explore our delicious dishes and discover their benefits:</p>
+
+        <div class="dish-container">
+            <div class="dish">
+                <h3>Grilled Salmon</h3>
+                <p>Rich in omega-3 fatty acids, grilled salmon is excellent for heart health.</p>
+            </div>
+
+            <div class="dish">
+                <h3>Vegetable Stir-Fry</h3>
+                <p>Packed with vitamins and minerals, vegetable stir-fry promotes overall well-being.</p>
+            </div>
+
+            <div class="dish">
+                <h3>Quinoa Salad</h3>
+                <p>Quinoa is a complete protein, and this salad is a great source of essential nutrients.</p>
+            </div>
+
+            <!-- Add more dishes as needed -->
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Restaurant Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
